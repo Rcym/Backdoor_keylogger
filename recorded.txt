@@ -1,0 +1,11 @@
+get-commands
+get-file
+get-info
+get-commands
+get 
+-keylogget-screenshot
+send-command
+dir
+aa
+get-commands
+deconnecter
